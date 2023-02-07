@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Tahoma;
+}
+
+.secao {
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* ===  1ª seção === */
+.header-top {
+    background-color: #afddfb;
+}
+
+.header-top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.header-top-content img {
+    width: 150px;
+}
+
+.header-top-content nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-top-content nav ul li a {
+    color: #1d1d1d;
+    margin: 0 20px;
+    font-size: 1.4em;
+    text-decoration: none;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+/* ===  2ª seção === */
+.secao-banner {
+    margin-top: 50px;
+}
+
+.secao-banner img {
+    width: 100%;
+}
+
+/* ===  3ª seção === */
+#sobre {
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+#sobre h2 {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.p-sobre {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.imagem {
+    width: 450px;
+}
+
+/* ===  estilos  === */
+.texto-azul {
+    color: #1d80c1;
+}
+
+span {
+    font-weight: bold;
+}
+
+.texto-amarelo {
+    color: #fff81b;
+}
+
+/* ===  4ª seção === */
+#serviço,
+#contato {
+    background-color: #1d80c1;
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+}
+
+h2 {
+    margin: 30px 0;
+    font-size: 1.7em;
+    line-height: 42px;
+}
+
+#serviço p {
+    line-height: 42px;
+    max-width: 700px;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#serviço ul {
+    width: 135px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+#serviço ul li h3 {
+    font-size: 1.4em;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+/* ===  5ª seção === */
+#corretores {
+    text-align: center;
+}
+
+#corretores p {
+    text-align: justify;
+    margin: 20px 0 40px;
+}
+
+/* ===  6ª seção === */
+
+iframe {
+    width: 90%;
+    height: 350px;
+}
+
+#contato p {
+    font-size: 1.1em;
+    margin: 30px 0 20px;
+    padding: 15px;
+    background-color: #1d1d1d;
+}
+
+#contato ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+#contato ul li a {
+    text-align: center;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+    color: #1d80c1;
+}
