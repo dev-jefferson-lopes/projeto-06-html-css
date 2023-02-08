@@ -161,3 +161,20 @@ iframe {
     padding: 2px;
     color: #1d80c1;
 }
+
+@media only screen and (max-width: 550px) {
+    .header-top-content nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-top-content nav ul li {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .imagem {
+        width: 100%;
+    }
+}
